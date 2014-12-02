@@ -18,7 +18,7 @@ describe Game do
       yolo2.roll(10)
       yolo2.roll(10)
       yolo2.roll(3)
-      expect(yolo2.attempts).to eq([5,10,10,3])
+      expect(yolo2.attempts).to eq([5,5,10,3])
     end
   end
     describe "#Score without sufficient score arrays" do
